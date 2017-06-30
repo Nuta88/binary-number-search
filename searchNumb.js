@@ -66,10 +66,10 @@ function testingFuncGetAverIndexArr() {
 }
 
 function testingFuncSearchNum() {
-	var actual = [ 1, 2, 5, 7, 20, 27, 34, 56, 59, 60, 70 ];
+	var input = [ 1, 2, 5, 7, 20, 27, 34, 56, 59, 60, 70 ];
 	var expected = 10;
 	var searNum = 70;
-	var receiveNum = searchNum(actual, searNum);
+	var receiveNum = searchNum(input, searNum);
 	if (expected === receiveNum) {
 		document.write("function is working good. Index is " + receiveNum);
 	} else {
